@@ -807,7 +807,7 @@ NS_INLINE BOOL ICCGFloatEqualOnScreen(CGFloat f1, CGFloat f2)
     
     for (UIView *hl in highlightsForRange)
     {
-        hl.backgroundColor = primaryHighlightColor;
+//        hl.backgroundColor = primaryHighlightColor;
         [primaryHighlights addObject:hl];
         [secondaryHighlights removeObject:hl];
     }
